@@ -1,0 +1,94 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@media(max-width:991px){
+    .menu{
+        display: none;
+    }
+    .mobile-menu-icon{
+        display: block;
+    }
+    .contact-item{
+        padding:0 100px ;
+    }
+
+}
+
+/*  */
+@media(max-width:768px){
+    .veerRecentWork-buttons button{
+        padding: 0 20px;
+    }
+    .clientReviews{
+        margin-top: 100px;
+    }
+    .contact-item{
+        padding:0 50px ;
+    }
+    .contact-item form input:nth-child(1){
+        width: 100%;
+    }
+    .contact-item form input:nth-child(2){
+        width: 100%;
+    }
+    .contact-item textarea{
+        height: 150px;
+    }
+    .contact-item button{
+        margin-top: 15px;
+        padding: 10px 30px;
+
+    }
+
+
+
+
+}
+
+
+
+/*  */
+@media(max-width:576px){
+    .secoundPage-item-img{
+        margin-top: 35px;
+    }
+    .secoundPage{
+        padding: 80px 0;
+    }
+    .secoundPage-item-img-top{
+        right: 60%;
+    }
+    .secoundPage-item-img-bottom{
+        left: 77%;
+    }
+
+    .ourBlog-item1{
+        -ms-flex-flow: wrap;
+            flex-flow: wrap;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .contact-item{
+        padding:0 10px ;
+    }
+
+}
+
+
+/*  */
+@media(max-width:425px){
+    .veerRecentWork-buttons button{
+        padding: 0 10px;
+    }
+    .footer-items{
+        margin-top: 20px;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+}
